@@ -368,12 +368,14 @@ img {
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-pic {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
+  transform: translateY(0%);
 }
 
 .add-pic {
@@ -393,6 +395,8 @@ img {
 
 .item-pic:hover .add-pic {
   transform: translateY(0);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list-container {
@@ -428,6 +432,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  align-items: baselin;
 }
 
 .logo-footer {
