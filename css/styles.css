@@ -325,6 +325,7 @@ img {
   gap: 24px;
   align-items: flex-start;
   justify-content: center;
+  margin-top: 8px;
 }
 
 .soc-link-item {
@@ -336,17 +337,23 @@ img {
   background-color: #4d5ae5;
   border-radius: 50%;
   gap: 24px;
-  flex-shrink: 0;
 }
 
 .soc-link-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(77, 90, 229, 1);
+  border-radius: 50%;
 }
 
 .soc-link-icon {
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
   fill: #fff;
+  flex-shrink: 0;
 }
 
 .portfolio {
