@@ -356,9 +356,7 @@ img {
 }
 
 .soc-link-icon {
-  width: 16px;
-  height: 16px;
-  fill: #fff;
+  fill: #f4f4fd;
   flex-shrink: 0;
 }
 
@@ -437,7 +435,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  align-items: baselin;
+  align-items: baseline;
 }
 
 .logo-footer {
